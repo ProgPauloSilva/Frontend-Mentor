@@ -1,0 +1,49 @@
+@media(max-width: 992px) {
+    .container {
+        width: 90%;
+        margin: 5% auto;
+    }
+
+    .cabecalho .info-cabecalho .title-cabecalho {
+        font-size: 3.2rem;
+    }
+}
+
+@media(max-width: 481px) {
+    h2 {
+        font-size: 3rem;
+    }
+
+    .container {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        border-radius: 0;
+    }
+
+    .cabecalho img {
+        border-radius: 0;
+    }
+
+    .cabecalho .info-cabecalho .title-cabecalho {
+        font-size: 3.5rem;
+        line-height: 40px;
+    }
+
+    .cabecalho .info-cabecalho,
+    .cabecalho .info-cabecalho,
+    .conteudo-principal {
+        padding: 0 20px;
+    }
+
+    .cabecalho .info-cabecalho .texto-cabecalho {
+        font-size: 1.5rem;
+        letter-spacing: 0.1px;
+    }
+
+    .preparacao .lista-de-preparacao li,
+    .ingredientes .lista-de-ingredientes li,
+    .instrucao .lista-de-instrucao li {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,89 @@
+body{
+    max-width: 1440px;
+    background-color: var(--Eggshell-color);
+    font-size: 1.6rem;
+    font-family: "Outfit", sans-serif;
+    /* display: flex;
+    justify-content: center; */
+}
+h2{
+    font-family: "Young Serif";
+    color: var(--Nutmeg-color);
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+section{
+    margin-top: 35px;
+}
+.container{
+    background-color: var(--White-color);
+    max-width: 900px;
+    margin: 120px auto;
+    padding: 40px;
+    border-radius: 20px;
+}
+.cabecalho img{
+    border-radius: 10px;
+}
+.cabecalho .info-cabecalho{
+    margin-top: 40px;
+}
+.cabecalho .info-cabecalho .title-cabecalho{
+    font-family: "Young Serif";
+    font-size: 5.2rem;
+    font-weight: 400;
+}
+.cabecalho .info-cabecalho .texto-cabecalho{
+    margin-top: 20px;
+    font-size: 2rem;
+    color: var(--Wenge-Brown-color);
+    line-height: 25px;
+}
+.preparacao{
+    background-color: var(--Rose-White-color);
+    border-radius: 15px;
+    padding: 35px;
+}
+.preparacao .title-preparacao{
+    color: var(--Dark-Raspberry-color);
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.instrucao .lista-de-instrucao{
+    list-style: decimal;
+}
+.preparacao .lista-de-preparacao,
+.ingredientes .lista-de-ingredientes,
+.instrucao .lista-de-instrucao
+{
+    margin-left: 30px;
+}
+.preparacao .lista-de-preparacao li,
+.ingredientes .lista-de-ingredientes li,
+.instrucao .lista-de-instrucao li{
+    padding: 10px 25px;
+    font-size: 2rem;
+
+} 
+.preparacao .lista-de-preparacao li span,
+.instrucao .lista-de-instrucao span{
+    font-weight: 600;
+}
+.nutricao .info-da-tabela{
+    margin-top: 20px;
+}
+.nutricao table{
+    width: 100%;
+    margin-top: 20px;
+}
+.nutricao table tr td{  
+    padding: 15px 30px; 
+    border-bottom: 1px solid var(--Light-Grey-color);
+}
+.nutricao table tr td.item{
+    width: 300px;
+}
+.nutricao table tr td.info{
+    color: var(--Nutmeg-color);
+    font-weight: 700;
+}
